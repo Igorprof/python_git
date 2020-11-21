@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS5</title>
+    <style>
+        body {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            line-height: 26px;
+        }
+        #backet {
+            text-align: center;
+            padding-top: 30px;
+        }
+        #goods {
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .goodBlock {
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            border:2px solid black;
+            margin-bottom: 25px;
+            padding: 10px;
+        }
+        .goodBlock:hover {
+            background-color: lightgreen;
+            transition: .4s;
+        }
+        .goodName {
+            text-align: center;
+        }
+        .goodPrice {
+
+        }
+
+        buyBtn {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="goods"></div>
+    <div id="backet">
+        <div class="cartBlock"></div>
+        <button class="clearBtn"></button>
+    </div>
+    <!-- <button id='check'>123123</button> -->
+    <script src="backet.js"></script>
+</body>
+
+</html>
